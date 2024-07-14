@@ -1,6 +1,6 @@
 const choices = ['rock', 'paper', 'scissors'];
 function getComputerChoice() {
-    const indexRandom = parseInt(Math.random() * choices.length);
+    const indexRandom = Math.floor(Math.random() * choices.length);
     return choices[indexRandom];
 }
 
